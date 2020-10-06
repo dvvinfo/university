@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Whitney-Semibold';
+  src: url('.././fonts/WhitneySemiBold/Whitney-Semibold.eot');
+  src: local('Whitney Semibold Regular'), local('Whitney-Semibold'),
+  url('../fonts/WhitneySemiBold/Whitney-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/WhitneySemiBold/Whitney-Semibold.woff') format('woff'),
+  url('../fonts/WhitneySemiBold/Whitney-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Whitney-Regular';
+  src: url('../fonts/WhitneyBook/Whitney-Book.eot');
+  src: local('Whitney Book Regular'), local('Whitney-Regular'),
+  url('../fonts/WhitneyBook/Whitney-Book.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/WhitneyBook/Whitney-Book.woff') format('woff'),
+  url('../fonts/WhitneyBook/Whitney-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Whitney-Bold';
+  src: url('../fonts/WhitneyBold/Whitney-Bold.eot');
+  src: local('Whitney Bold Regular'), local('Whitney-Bold'),
+  url('../fonts/WhitneyBold/Whitney-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/WhitneyBold/Whitney-Bold.woff') format('woff'),
+  url('../fonts/WhitneyBold/Whitney-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
