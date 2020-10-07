@@ -1,0 +1,46 @@
+.widget{
+  padding: 6.25rem 0;
+  background-color: $red;
+}
+.content-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.widget-item{
+  display: flex;
+  justify-content: center;
+}
+.widget-btn{
+  background-color: $red;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  width: 320px;
+  height: 120px;
+  box-shadow: 0 15px 50px rgba(152, 152, 152, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.875rem;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-family: Whitney-Semibold;
+  &:hover{
+    background-color: #ffffff;
+    color: $red;
+    .widget-arrow {
+      background: url("../img/Arrow_red.svg") no-repeat ;
+
+    }
+  }
+}
+.mb-custom{
+  margin-bottom: 3.75rem;
+}
+.widget-arrow{
+  background: url("../img/Arrow.svg") no-repeat ;
+  width: 36px;
+  height: 36px;
+}
