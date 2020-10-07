@@ -1,5 +1,5 @@
 .events{
-  background-color: #E5E5E5;
+  background-color: #ffffff;
   padding: 7.5rem 0;
 }
 .events-title-wrapper{
@@ -21,6 +21,10 @@
   font-size: 18px;
   line-height: 23px;
   color: $gray1;
+  a {
+    color: $gray1;
+    text-decoration: none;
+  }
 }
 .arrow-wrapper{
   display: flex;
