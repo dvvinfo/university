@@ -1,0 +1,110 @@
+.events{
+  background-color: #E5E5E5;
+  padding: 7.5rem 0;
+}
+.events-title-wrapper{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 2.1875rem;
+  margin-bottom: 2.5rem;
+}
+.title{
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: 0.03em;
+  font-family: Whitney-Bold;
+  color: $red;
+  margin: 0;
+}
+.small-text{
+  font-size: 18px;
+  line-height: 23px;
+  color: $gray1;
+}
+.arrow-wrapper{
+  display: flex;
+  align-items: center;
+  height: 320px;
+  justify-content: center;
+}
+.slider-arrow-left{
+  width: 50px;
+  height: 8px;
+  background: url("../img/Arrow_4.svg") no-repeat center center;
+  background-size: cover;
+  margin-right: 1.25rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -9.1875rem;
+}
+.slider-arrow-right{
+  width: 50px;
+  height: 8px;
+  background: url("../img/Arrow_3.svg") no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -4.8125rem;
+}
+.slider-item-wrapper{
+  background: #FFFFFF;
+  border: 1px solid $gray2;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 1.875rem;
+  margin-left: 1.4375rem;
+  margin-right: 1.4375rem;
+  height: 320px;
+}
+.slider-title{
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+  font-family: Whitney-Bold;
+  color: $black;
+  margin-bottom: 0.625rem;
+}
+.slider-category{
+  font-size: 18px;
+  line-height: 23px;
+  color: $gray1;
+  padding-bottom: 3.75rem;
+}
+.slider-content{
+  border-top: 1px solid $gray2;
+  padding-top: 1.25rem;
+  margin-top: 3.75rem;
+}
+.slider-date{
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  font-family: Whitney-Bold;
+  color: $black;
+  margin-bottom: 0.625rem;
+}
+.slider-date-content{
+  display: flex;
+  align-items: center;
+}
+.slider-time{
+  font-size: 16px;
+  line-height: 21px;
+  color: $black;
+  padding-right: 0.875rem;
+}
+.slider-author{
+  font-size: 16px;
+  line-height: 21px;
+  color: $black;
+  padding-left: 0.875rem;
+}
+.slider{
+  display: flex;
+
+}
