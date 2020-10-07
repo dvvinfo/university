@@ -1,0 +1,57 @@
+.banner{
+  background: url("../img/Rectangle.webp") no-repeat center center ;
+  background-size: cover;
+  height: 700px;
+}
+.banner-fon{
+  //background: $black;
+  //opacity: 0.50%;
+  //z-index: 1;
+  //position: relative;
+}
+.banner-content{
+  display: flex;
+align-items: center;
+  justify-content: center;
+  height: 700px;
+
+
+}
+.banner-title{
+  font-family: Whitney-Bold;
+  font-size: 48px;
+  line-height: 63px;
+  color: #FFFFFF;
+  text-shadow: 0 4px 40px rgba(68, 68, 68, 0.5);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.banner-content-wrapper{
+  max-width: 600px;
+  z-index:99;
+  position: relative;
+}
+.banner-input-wrapper{
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 600px;
+  padding: 0.75rem;
+
+}
+.banner-input{
+  width: 92%;
+  background: none;
+  border: none;
+  margin-left: 0.75rem;
+  font-size: 16px;
+  color: #fff;
+  &:focus{
+    border: none;
+    outline: none;
+  }
+}
+.banner-form{
+  display: flex;
+  align-items: center;
+}
