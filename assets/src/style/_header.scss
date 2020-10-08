@@ -15,10 +15,20 @@
     color: $red;
   }
 }
+.notification-close{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+}
 .header_wrapper{
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.25rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .navbar{
   padding: 0;
@@ -27,8 +37,9 @@
   text-transform: uppercase;
   color: $black!important;
   font-weight: 500;
-  padding-left: 5px!important;
-  padding-right: 5px!important;
+  //padding-left: 5px!important;
+  //padding-right: 5px!important;
+  padding: 0.5rem 5px!important;
   &:hover{
     text-decoration: underline;
   }
@@ -37,6 +48,7 @@
 .menu{
   display: flex;
   align-items: center;
+  width: 90%;
 }
 .navbar-img{
   padding-left: 5px;
@@ -59,6 +71,9 @@
 }
 .notifications{
   padding-right: 30px;
+}
+.account-block{
+  width: 10%;
 }
 .account-block .dropdown-menu{
   padding: 1.25rem;
@@ -115,4 +130,9 @@
   width: 36px;
   height: 36px;
 }
-
+.bg-light{
+  background: #ffffff!important;
+}
+.navbar-light .navbar-toggler-icon{
+  background: url("../img/icon.svg") center center no-repeat;
+}

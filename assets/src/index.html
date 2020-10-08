@@ -5,8 +5,8 @@
 </head>
 <body>
 <div class="wrapper">
+    <div class="vh-100">
     //= template/header.html
-    <main>
         <section class="banner">
             <div class="banner-fon">
             <div class="container-fluid">
@@ -15,7 +15,7 @@
                         <h1 class="banner-title">Welcome to Student Hub</h1>
                         <div class="banner-input-wrapper">
                             <form class="banner-form" action="#" method="post">
-                            <img src="img/Vector).svg" alt="Search">
+                            <img src="img/Vector).svg" alt="Search" class="img-search">
                             <input type="text" name="search" class="banner-input">
                             </form>
                         </div>
@@ -24,6 +24,7 @@
             </div>
             </div>
         </section>
+    </div>
         <section class="widget">
             <div class="container-fluid">
                 <div class="content-wrapper">
@@ -56,30 +57,24 @@
                         </div>
                     <div class="row ">
                         <div class="col-lg-4">
-                            <div class="widget-item">
                                 <div class="widget-item">
                                     <div class="widget-btn">
                                         My Classes <div class="widget-arrow"></div>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="widget-item">
                                 <div class="widget-item">
                                     <div class="widget-btn">
                                         My Appointments <div class="widget-arrow"></div>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="widget-item">
                                 <div class="widget-item">
                                     <div class="widget-btn">
                                         My Documents <div class="widget-arrow"></div>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -97,11 +92,11 @@
                         </div>
                     </div>
                     <div class="row position-relative">
-                        <div class="col-2">
+                        <div class="col-2 d-none-custom">
                             <div class="arrow-wrapper">
                             </div>
                         </div>
-                        <div class="col-10">
+                        <div class="col-10 ">
                             <div class="slider-wrapper">
                                 <div class="slider">
                                     <div class="slider-item">
@@ -219,10 +214,10 @@
                 </div>
             </div>
         </section>
-    </main>
 </div>
 
 
 //= template/footer.html
+//= template/modal.html
 </body>
 </html>

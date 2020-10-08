@@ -32,7 +32,7 @@
     background-color: #ffffff;
     color: $red;
     .widget-arrow {
-      background: url("../img/Arrow_red.svg") no-repeat ;
+      background: url("../img/Arrow_red.svg") no-repeat center center ;
 
     }
   }
@@ -41,7 +41,8 @@
   margin-bottom: 3.75rem;
 }
 .widget-arrow{
-  background: url("../img/Arrow.svg") no-repeat ;
+  background: url("../img/Arrow.svg") no-repeat center center ;
+  background-size: cover;
   width: 36px;
   height: 36px;
 }
